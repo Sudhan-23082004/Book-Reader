@@ -3,19 +3,20 @@ import Giscus from '@giscus/react';
 export default function Comments() {
   return (
     <div className=" px-32 pb-24 bg-[#ffe8e8]">
-    <Giscus
+      <Giscus
       id="comments"
-      repo="Sudhan-23082004/library_comments"
-      repoId="R_kgDOLeT4sQ"
+      repo="Sudhan-23082004/Library_Management"
+      repoId="R_kgDOLf637g"
       category="Announcements"
-      categoryId="DIC_kwDOLeT4sc4Cd3UE"
+      categoryId="DIC_kwDOLf637s4Ceyne"
       mapping="pathname"
       reactionsEnabled="1"
       emitMetadata="0"
-      inputPosition="bottom"
-      theme="light"
+      inputPosition="top"
+      theme="preferred_color_scheme"
       lang="en"
       loading="lazy"
-    /></div>
+    />
+</div>
   );
 }
